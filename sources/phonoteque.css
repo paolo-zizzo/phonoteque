@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+
+
+.accueil{
+display:flex;
+flex-direction:column;
+min-height: 100%;
+background-color: #333;
+margin:0;
+}
+
+.style1{
+margin:0;
+padding:0;
+background-image:url(../img/fond2.jpg);	
+background-attachment:fixed;
+background-size:cover;
+}
+
+.style4{
+margin:0;
+padding:0;
+background-image:url(../img/fond4.jpg);	
+background-attachment:fixed;
+background-size:cover;	
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.electro{
+display:flex;
+flex-direction:column;
+}
+
+.article-left{
+display:flex;
+flex:1;	
+}
+.article-right{
+display:flex;	
+flex:1;	
+}
+
+.bandeaux{
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+background: linear-gradient(120deg, #D7DBDD 55%, #F0B27A    50%);
+height:500px;
+}
+.grostitre{
+display:flex;
+flex-direction:column;
+font-size:300%;
+margin-top:8%;
+text-shadow:#000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+color:white
+
+}
+
+.sous-titre{
+font-family: 'Baloo Bhai', cursive;
+font-family: 'Baloo Bhai', cursive;
+height:20px;	
+margin-top:0;
+font-size:20px;	
+	
+}
+
+.titremusiques{
+font-family: 'Baloo Bhai', cursive;
+font-family: 'Baloo Bhai', cursive;
+height:20px;	
+margin-top:0;
+}
+table{	
+border: 1px solid black;
+}
+
+
+.topmoment{
+background-color:#F0B27A;
+display:flex;
+flex-direction:column;
+margin-top:7%;
+border: 1px solid black;
+}
+
+.topelectro{
+background-color:#9575CD;
+display:flex;
+flex-direction:column;
+margin-top:7%;
+border: 1px solid black;
+width:50%;
+min-width:500px;
+margin-left:auto;
+margin-right:auto;	
+}
+
+.toplatino{
+display:flex;
+justify-content:space-between;
+margin:5%;
+flex-wrap:wrap;
+}
+
+.audioslatino{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+
+
+.nouveautéelectro{
+text-align:center;	
+text-shadow:#e7f6ff 0 -1px 0,
+#a74a0c 1px 1px 0,
+#d97f32 2px 2px 0,
+#f5993d 3px 3px 0,
+#fec362 4px 4px 0,
+#ffe687 5px 5px 0,
+#333 5px 5px 10px;
+color:#F30034;
+font-size:45px;
+}
+
+.top{
+background-color:#F0B27A ;
+display:flex;
+flex-direction:column;
+margin-top:7%;
+/* margin-bottom:7% */
+border: 1px solid black;	
+}
+
+.titre2{
+text-align:center;	
+}
+
+.albums{
+display:flex;
+justify-content:space-between;
+flex-wrap: wrap;	
+margin:5px;
+}
+
+.topmondial{
+display:flex;
+justify-content:space-between;
+flex-wrap: wrap;	
+margin:5px;
+}
+
+#audios{
+display:flex;
+flex-direction:column;	
+align-items:center;
+}
+
+#audioselectro{
+display:flex;
+flex-direction:column;	
+align-items:center;
+height:450px;
+}
+
+audio{
+width:278px;
+border: 1px solid black;
+background-color:rgba(241,243,244);
+}
+
+footer{
+font-size: 12px;
+font-family: Verdana, Geneva, sans-serif;
+background-color:#333;
+vertical-align: middle;
+border: 1px solid white;
+height:100px;
+margin-top:7%;
+}
+
+.descriplatino{
+text-align:center;
+font-size:45px;
+font-family: 'Kalam', cursive;	
+animation: wheelHueColor 5s infinite;
+color: #F1C40F ;
+}
+@keyframes wheelHueColor {
+    
+    from to  { color: #F1C40F ; }
+    20%      { color: #F39C12 ; }
+    30%      { color: #D35400 ; }
+    40%      { color: #873600 ; }
+    50%      { color: #873600; }
+    60%      { color: #C0392B; }
+    70%      { color: #922B21 ; }
+    80%      { color: #9A7D0A ; }
+    90%      { color: #D4AC0D ; }
+}
+
+
+
+.page{
+text-align:center;
+color: white;
+}
+
+.icones{
+position: absolute;
+bottom:auto;
+left:80%;	
+}
+
+
+.audioslatino:hover {
+  transform: scale(1.2);
+  color:red;
+}
+
+
+
+/* CSS Paolo */
+
+	
+.ul1 {	
+  list-style-type: none;
+  margin:0PX;
+  padding:0PX;
+  overflow: hidden;
+  background-color: #333;
+  height:50px;
+  width:100%;
+}
+
+.body1{
+  margin: auto;
+  background-image: url(../img/reggae.png);
+  height:auto; 
+  width: auto;
+}
+
+.sectionreggae{
+margin-top: 4%;
+display: flex;
+justify-content: space-between;
+}
+
+.divreggae1 {
+text-align: center;
+margin-top: 20%;
+display: flex;
+flex-direction: column;
+color: white;
+margin: 0;
+  padding: 0;
+  
+  justify-content: center;
+  
+  height: 200px;
+  
+}
+
+.p1 {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 15;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 12s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.divreggae2{
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0;
+    padding: 0;
+    
+    justify-content: center;
+    
+    height: 200px;
+    
+  }
+  
+  .p2{
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 15;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 12s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  
+}
+.divreggae3{
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20%;
+  
+  flex-direction: column;
+  color: white;
+  margin: 0;
+    padding: 0;
+    
+    justify-content: center;
+    
+    height: 200px;
+    
+  }
+  
+  .p3 {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 15;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 12s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  
+}
+
+
+#audiosreggae{
+position: absolute;
+display: flex;
+flex-direction: column;
+}
+
+#audiosreggae1{
+position:absolute;
+display: flex;
+flex-direction: column; 
+}
+
+#audiosreggae2{
+
+position:absolute;
+display: flex;
+flex-direction: column; 
+ 
+}
+
+.footer1{
+  height: 10px;
+}
+
+.text1{
+  color: #D7DBDD;
+  margin-top:13%;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 12;
+  text-align: center;
+}
+.body2{
+  background-image: url(../img/rap.jfif);
+background-repeat: no-repeat;
+background-size: cover;
+margin: auto;
+
+
+
+}
+.ul2 {	
+  list-style-type: none;
+  margin:0PX;
+  padding:0PX;
+  overflow: hidden;
+  background-color: #333;
+  height:50px;
+  width:100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none
+ 
+}
+
+li a:hover {
+  background-color: #88c1d0;
+}
+
+.sectiongroup{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.hr{
+  margin-top:130px;
+  height: 2px;
+  background-color: #f90;
+}
+
+
+.phiphop{
+  text-align: center;
+  color: yellow;
+  font-size: 25;
+  display:flex;
+  justify-content: center;
+  font-family: 'Lobster', cursive;
+  text-decoration-line: underline;
+}
+
+.hiphop{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+}
+
+
+
+.art1{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color: #D7DBDD;
+}
+
+.hr1{
+  margin-top:3%;
+  height: 2px;
+  background-color: #f90;
+}
+
+
+table{
+  border-color: white;
+  color:white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width:auto;
+}
+
+.prap{
+  
+    text-align: center;
+    color: yellow;
+    font-size: 25;
+    display:flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    text-decoration-line: underline;
+  }
+  
+
+
+#son1{
+  margin-top:3%;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.imgrap{
+  
+  width:250px;
+  height: 150px;
+}
+
+.audio1{
+  width:250px;
+
+}
+.artrap{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+	
